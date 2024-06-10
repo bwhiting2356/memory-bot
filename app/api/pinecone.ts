@@ -15,15 +15,6 @@ export type MessageMetadata = {
 
 export const index = pc.index<MessageMetadata>(indexName);
 
-export const upsertMessage = async (metadata: MessageMetadata) => {
-    const record = {
-        id: metadata.date,
-        values: await getEmbedding(metadata.message),
-        metadata,
-    };
-    await index.upsert([record]);
-};
-
 export const upsertMessages = async (metadataArray: MessageMetadata[]) => {
     const records = await Promise.all(
         metadataArray.map(async metadata => {
