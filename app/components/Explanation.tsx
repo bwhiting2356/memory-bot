@@ -19,7 +19,7 @@ export default function Explanation() {
                     </p>
                     <p>
                         To keep it simple, there is no auth here - you have been assigned a random
-                        user id that's saved to local storage. All messages are upserted into{' '}
+                        user id that&apos;s saved to local storage. All messages are upserted into{' '}
                         <a className="underline" target="_blank" href="https://www.pinecone.io/">
                             Pinecone
                         </a>{' '}
