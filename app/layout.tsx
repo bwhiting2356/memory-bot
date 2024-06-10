@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: 'LLM UI State Management',
-    description: 'Proof of concept for managing UI application state with an LLM',
+    title: 'Memory Bot',
+    description: 'Proof of concept for giving a bot memory using RAG',
 };
 
 export default function RootLayout({
