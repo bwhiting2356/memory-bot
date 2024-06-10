@@ -27,6 +27,7 @@ export default function Explanation() {
                         you send, the messages are embedded and a query is sent to pinecone to find
                         similar messages for your user id from the history.
                     </p>
+                    <p>Try discussing a topic, refreshing the page, and see if it remembers your previous discussion on the topic.</p>
                 </div>
             </div>
         </div>
