@@ -3,7 +3,7 @@ import { useContext, useEffect, useMemo, useRef } from 'react';
 import { Message, useChat } from 'ai/react';
 import { Input } from '@/components/ui/input';
 import MessageComponent from './MessageComponent';
-import { StopCircle, ArrowCircleUp, } from '@phosphor-icons/react';
+import { StopCircle, ArrowCircleUp } from '@phosphor-icons/react';
 import { MessageBotContext } from '../state/context';
 
 export default function Chat() {

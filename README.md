@@ -2,8 +2,7 @@
 
 ### Introduction
 
-This is a small prototype that explores how a chatbot could be given 'unlimited' memory using RAG. 
-
+This is a small prototype that explores how a chatbot could be given 'unlimited' memory using RAG.
 
 ### Demo
 

@@ -14,15 +14,18 @@ export default function Explanation() {
                 </div>
                 <div className="text-normal text-gray-700 mr-12">
                     <p>
-                        This is a demo of how a chatbot can have 'unlimited' memory of past chat
-                        messages using RAG.
+                        This is a demo of how a chatbot can have &apos;unlimited&apos; memory of
+                        past chat messages using RAG.
                     </p>
                     <p>
-                        To keep it simple, there is no auth here - you have been assigned a random user id that's saved to local
-                        storage. All messages are upserted into  <a className="underline" target="_blank" href="https://www.pinecone.io/">
+                        To keep it simple, there is no auth here - you have been assigned a random
+                        user id that's saved to local storage. All messages are upserted into{' '}
+                        <a className="underline" target="_blank" href="https://www.pinecone.io/">
                             Pinecone
-                        </a> with metadata that links the record to this user id. Then, for any messages you send, the messages are embedded and a query is
-                        sent to pinecone to find similar messages for your user id from the history.
+                        </a>{' '}
+                        with metadata that links the record to this user id. Then, for any messages
+                        you send, the messages are embedded and a query is sent to pinecone to find
+                        similar messages for your user id from the history.
                     </p>
                 </div>
             </div>

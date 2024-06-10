@@ -51,7 +51,7 @@ export async function POST(req: Request) {
         data: { userId },
     } = await req.json();
     const systemPrompt = await buildSystemPromptWithRAGHistory(messages, userId);
-    console.log('systemPrompt', systemPrompt)
+    console.log('systemPrompt', systemPrompt);
 
     const result = await streamText({
         model: openai(model),
