@@ -5,7 +5,7 @@ import { ScoredPineconeRecord } from '@pinecone-database/pinecone';
 
 const model = 'gpt-4o';
 
-export async function saveChat(chat: { text: string; userId: string }) {
+async function saveChat(chat: { text: string; userId: string }) {
     const { text, userId } = chat;
     const metadata = {
         message: text,
