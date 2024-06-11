@@ -12,7 +12,7 @@ export default function Explanation() {
                 <div className="my-4">
                     <h2 className="font-bold text-xl">How it Works</h2>
                 </div>
-                <div className="text-normal text-gray-700 mr-12">
+                <div className="text-normal text-gray-700 mr-12 space-y-4">
                     <p>
                         This is a demo of how a chatbot can have &apos;unlimited&apos; memory of
                         past chat messages using RAG.
